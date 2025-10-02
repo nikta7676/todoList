@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        input {
+            width: 70%;
+            padding: 8px;
+            border: 1px solid  #007BFF;
+            border-radius: 8px;
+        }
+        input:focus{
+            outline: 4px auto orange;
+        }
+        .inputError input:focus {
+            outline-color: red
+        }
+
+        
+
+        button {
+            padding: 8px 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .delete {
+            color: red;
+            cursor: pointer;
+        }
+        .filters {
+          display: flex;
+          justify-content: space-evenly;
+
+        }
+       
+        .icons{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .icons button{
+            padding: 3px 7px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .yellow{
+            color: yellow
+        }
+        .background-yellow{
+            background-color: yellow
+        }
+        .editForm{
+            display: block;
+        }
+        li form{
+            display: flex;
+            justify-content: space-between;
+        }
+        li input {
+            width: auto;
+        }
+
+        button:disabled{
+            background-color: gray
+        }
